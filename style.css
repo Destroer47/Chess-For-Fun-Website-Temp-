@@ -1,0 +1,43 @@
+a {
+    color: #38b6ff;
+    font-weight: bold;
+}
+
+.links {
+    display: flex;
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+}
+
+.link-tag {
+    margin: 5px;
+    padding: 10px;
+}
+
+#header {
+    display: flex;
+    background-color: black;
+    border-radius: 3px;
+    box-shadow: 10px 10px 5px grey;
+    margin-bottom: 20px;
+}
+
+#head-box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#name {
+    margin-left: 5px;
+    color: #ff914d;
+    font-size: 30px;
+}
+#logo {
+    object-fit: contain;
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: 10px;
+}
